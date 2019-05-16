@@ -76,48 +76,47 @@ header a:before{
 	text-align: center;
 }
 
+.titulo1{
+
+	font-size: 80px;
+	width: 100%;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.titulo2{
+
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+	margin: 30px 0;
+}
+
 .container{
 
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	margin: 50px 10%;
 }
 
-.parrafo{
+.container .element{
 
-	padding: 50px 250px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100px;
+	padding-left: 20%;
 }
 
-.parrafo h2{
+.container .element img{
+
+	height: 50px;
+	margin-right: 20px;
+}
+
+.container .element p{
 
 	font-size: 32px;
-	margin-bottom: 20px;
-}
-
-.parrafo p{
-	
-	font-size: 24px;
-	line-height: 50px;
-	text-align: justify;
-}
-
-.container img{
-
-	width: 300px;
-	margin: auto;
-	-webkit-animation: rotation 5s infinite linear;
-}
-
-
-#loading {
-}
-
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotateY(0deg);
-		}
-		to {
-				-webkit-transform: rotateY(359deg);
-		}
 }
 
 footer{

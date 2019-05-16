@@ -76,16 +76,44 @@ header a:before{
 	text-align: center;
 }
 
-.parrafo{
+.tarjetas{
 
-	padding: 50px 250px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 350px);
+	grid-gap: 100px;
+	justify-content: center;
+	margin: 100px 0;
 }
 
-.parrafo p{
-	
-	font-size: 24px;
-	line-height: 50px;
-	text-align: justify;
+.tarjetas .tarjeta{
+
+	width: 350px;
+	height: auto;
+}
+
+.tarjetas .tarjeta .encabezado{
+
+	width: 350px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.tarjetas .tarjeta .encabezado img{
+
+	width: 100%;
+	height: 100%;
+	transition: .5s ease-out;
+}
+
+.tarjetas .tarjeta:hover .encabezado img{
+
+	transform: scale(1.2);
+}
+
+.tarjeta .cuerpo .titulo{
+
+	margin: 20px 0;
 }
 
 footer{

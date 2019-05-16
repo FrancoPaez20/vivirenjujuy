@@ -76,16 +76,31 @@ header a:before{
 	text-align: center;
 }
 
-.parrafo{
+.container{
 
-	padding: 50px 250px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 50px 10%;
 }
 
-.parrafo p{
-	
-	font-size: 24px;
-	line-height: 50px;
-	text-align: justify;
+.container .element{
+
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100px;
+	padding-left: 20%;
+}
+
+.container .element img{
+
+	height: 50px;
+	margin-right: 20px;
+}
+
+.container .element p{
+
+	font-size: 32px;
 }
 
 footer{
