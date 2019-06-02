@@ -1,0 +1,145 @@
+
+.portada h1 {
+
+	color: #fff;
+	font-size: 122px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.parrafo{
+
+	padding:0 10%;
+}
+
+.parrafo h2{
+
+	font-size: 32px;
+	padding: 5% 0;
+}
+
+.parrafo p{
+	
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.tarjetas{
+
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+	grid-gap: 100px;
+	justify-content: center;
+	padding: 10%;
+}
+
+.tarjetas .tarjeta{
+
+	width: 350px;
+	height: auto;
+
+}
+
+.tarjetas .tarjeta .encabezado{
+
+	width: 350px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.tarjetas .tarjeta .encabezado img{
+
+	width: 100%;
+	height: 100%;
+	transition: .5s ease-out;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.tarjetas .tarjeta:hover .encabezado img{
+
+	transform: scale(1.2);
+}
+
+.tarjeta .cuerpo .titulo{
+
+	margin: 20px 0;
+	text-align: center;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+
+
+}
+
+@media (min-width: 426px) and (max-width: 800px) {
+	
+	.portada{
+
+		height: 40vh;
+	}
+
+	.portada h1 {
+
+		font-size: 80px;
+	}
+
+	.parrafo h2{
+
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.parrafo p{
+		
+		font-size: 18px;
+		line-height: 50px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+
+	.portada{
+
+		height: 40vh;
+	}
+
+	.portada h1 {
+
+		font-size: 40px;
+	}
+
+	.parrafo h2{
+
+		font-size: 24px;
+	}
+
+	.parrafo p{
+		
+		font-size: 16px;
+		line-height: 40px;
+		text-align: justify;
+	}
+
+	.tarjetas .tarjeta{
+
+		width: auto;
+		height: auto;
+	}
+
+	.tarjetas .tarjeta .encabezado{
+
+		width: auto;
+	}
+
+}

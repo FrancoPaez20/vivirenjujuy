@@ -8,20 +8,80 @@
 	<meta name="description" content="Vivir en jujuy. Jujuy energia viva.">
 	<title>Vivir en Jujuy</title>
 	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-	
-	<header>
-		
-		<a href="recetas.html">RECETAS</a>
-		<a href="estudiantes.html">ESTUDIANTES</a>
-		<a href="trabajos.html">TRABAJOS</a>
-		<a href="comercios.html">COMERCIOS</a>
-		<a href="eventos.html">EVENTOS</a>
-		<a href="tramites.html">TRAMITES</a>
 
+	<header>
+		<button id="iconMenu1" class="showIconMenu"></button>
 	</header>
 
+	<aside class="contenedorNumero1">
+
+		<nav class="contenedorNumero2">
+		
+			<div class="cabecera">
+		
+				<button id="iconMenu2" class="hideIconMenu"></button>
+				<p>CERRAR</p>
+		
+			</div>
+		
+			<div class="menu">
+		
+				<li class="item" id='index'>
+					<a href="index.html" class="btn">INICIO</a>
+				</li>
+				
+				<li class="item" id='recetas'>				
+					<a href="recetas.html" class="btn">RECETAS</a>
+				</li>
+
+				<li class="item" id="estudiantes">
+				
+					<a href="#estudiantes" class="btn">ESTUDIANTES</a>
+					<div class="smenu">
+				
+						<a href="universidades.html">UNIVERSIDADES</a> 
+						<a href="departamentos.html">DEPARTAMENTOS</a>
+				
+					</div>
+
+				</li>
+
+				<li class="item" id="trabajos">
+				
+					<a href="#trabajos" class="btn">TRABAJOS</a>
+					<div class="smenu">
+				
+						<a href="buscaTrabajos.html">BUSCA TRABAJOS</a> 
+						<a href="buscaTrabajadores.html">BUSCA TRABAJADORES</a>
+				
+					</div>
+					
+				</li>
+
+				<li class="item" id='comercios'>
+					<a href="comercios.html" class="btn">COMERCIOS</a>
+				</li>
+
+				<li class="item" id='eventos'>
+					<a href="eventos.html" class="btn">EVENTOS</a>
+				</li>
+
+				<li class="item" id='tramites'>
+					<a href="tramites.html" class="btn">TRAMITES</a>
+				</li>
+
+				<li class="item" id='contacto'>
+					<a href="contacto.html" class="btn">CONTACTANOS</a>
+				</li>
+
+			</div>
+
+		</nav>
+
+	</aside>
 
 	<div class="portada">
 
@@ -90,7 +150,7 @@
 		
 		<a href="#">DEPRO</a>
 
-		<div class="enlases">
+		<div class="enlaces">
 			
 			<a href="#">Contactanos</a>
 			<a href="#">Se parte de nosotros</a>
@@ -100,6 +160,8 @@
 		</div>
 		
 	</footer>
+
+	<script src="js/header.js"></script>
 
 </body>
 </html>
