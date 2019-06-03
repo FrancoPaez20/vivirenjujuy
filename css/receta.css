@@ -23,7 +23,7 @@
 
 .parrafo{
 
-	padding: 50px 250px;
+	padding: 5% 20%;
 }
 
 .parrafo p{
@@ -31,6 +31,11 @@
 	font-size: 24px;
 	line-height: 50px;
 	text-align: justify;
+}
+
+.parrafo p strong{
+
+	font-size: 30px;
 }
 
 
@@ -77,7 +82,7 @@
 
 	.parrafo{
 
-		padding: 30px 50px;
+		padding: 10%;
 	}
 
 	.parrafo h2{
@@ -129,7 +134,7 @@
 
 	.parrafo{
 
-		padding: 30px;
+		padding: 10%;
 	}
 
 	.parrafo h2{
@@ -140,28 +145,6 @@
 	.parrafo p{
 		
 		font-size: 20px;
-	}
-
-	.tarjetas{
-
-		grid-template-columns: 350px;
-		margin: 20px 0;
-	}
-
-	.tarjetas .tarjeta{
-
-		width: 350px;
-		height: auto;
-	}
-
-	.tarjetas .tarjeta .encabezado{
-
-		width: 350px;
-	}
-
-	.tarjeta .cuerpo .titulo{
-
-		margin: 20px 0;
 	}
 
 }
@@ -180,13 +163,12 @@
 
 	.parrafo{
 
-		padding: 20px;
+		padding: 10%;
 	}
 
 	.parrafo p{
 		
 		font-size: 18px;
-		text-align: left;
 		line-height: 24px;
 
 	}

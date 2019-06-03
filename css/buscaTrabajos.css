@@ -8,3 +8,8 @@
     background-attachment: fixed;
     position: relative;
 }
+
+.tarjeta .cuerpo .titulo-left{
+	
+	text-align: left;
+}

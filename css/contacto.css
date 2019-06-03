@@ -9,57 +9,67 @@
     position: relative;
 }
 
-.portada h1 {
-
-	color: #fff;
-	font-size: 122px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	text-align: center;
-}
-
 .titulo1{
 
 	font-size: 80px;
 	width: 100%;
 	text-align: center;
-	margin: 30px 0;
+	padding: 5% 10% 0 10%;
 }
 
 .titulo2{
 
 	font-size: 40px;
-	width: 100%;
+	width: 90%;
 	text-align: center;
-	margin: 30px 0;
+	margin: auto;
+	padding: 0 10% 5% 10%;
 }
 
-.container{
+@media (min-width: 1025px) and (max-width: 1440px){
 
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin: 50px 10%;
 }
 
-.container .element{
+@media (min-width: 801px) and (max-width: 1024px) {
 
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-	height: 100px;
-	padding-left: 20%;
 }
 
-.container .element img{
+@media (min-width: 426px) and (max-width: 800px) {
 
-	height: 50px;
-	margin-right: 20px;
+	.portada{
+
+		height: 40vh;
+	}
+
+	.titulo1{
+
+		font-size: 42px;
+		padding: 10% 0 0 0;
+	}
+
+	.titulo2{
+
+		font-size: 22px;
+		padding: 0 0 10% 0;
+	}
 }
 
-.container .element p{
+@media screen and (max-width: 425px) {
+	
+	.portada{
 
-	font-size: 32px;
+		height: 40vh;
+	}
+
+	.titulo1{
+
+		font-size: 38px;
+		padding: 10% 0 0 0;
+	}
+
+	.titulo2{
+		font-size: 20px;
+		padding: 0 0 10% 0;
+	}
+
 }

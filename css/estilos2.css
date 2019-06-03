@@ -55,7 +55,10 @@
 
 @media (min-width: 801px) and (max-width: 1024px) {
 
+	.portada h1 {
 
+		font-size: 70px;
+	}
 }
 
 @media (min-width: 426px) and (max-width: 800px) {
@@ -67,7 +70,7 @@
 
 	.portada h1 {
 
-		font-size: 80px;
+		font-size: 50px;
 	}
 
 	.container{
