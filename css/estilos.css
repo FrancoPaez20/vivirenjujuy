@@ -6,7 +6,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%;
+	width: 95%;
 	text-align: center;
 }
 
@@ -27,6 +27,8 @@
 	line-height: 50px;
 }
 
+
+
 .tarjetas{
 
 	width: 100%;
@@ -34,13 +36,16 @@
 	grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
 	grid-gap: 100px;
 	justify-content: center;
-	padding: 10%;
+	padding: 7% 10% 10% 10%;
 }
 
 .tarjetas .tarjeta{
 
 	width: 350px;
 	height: auto;
+	overflow: hidden;
+	color: #000;
+	transition: .5s;
 
 }
 
@@ -55,20 +60,51 @@
 
 	width: 100%;
 	height: 100%;
-	transition: .5s ease-out;
+	transition: .3s ease-out;
 	object-fit: cover;
-	overflow: hidden;
 }
 
 .tarjetas .tarjeta:hover .encabezado img{
 
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 .tarjeta .cuerpo .titulo{
 
 	margin: 20px 0;
 	text-align: center;
+}
+
+.selectbox{
+
+	width: 100%;
+	height: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.selectbox select{
+	
+	width:80%;
+	height: 100%;
+	padding-left: 20px;
+	border: 2px solid #000;
+	font-weight: bold;
+	cursor: pointer;
+	background: #fff;
+
+}
+
+.selectbox select option{
+
+	background: #fff;
 }
 
 @media (min-width: 1025px) and (max-width: 1440px){

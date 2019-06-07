@@ -1,7 +1,7 @@
 .portada{
 
 	height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/tramite.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/tramites.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 
 .parrafo{
 
-	padding: 50px 250px;
+	padding: 5% 20%;
 }
 
 .parrafo p{
@@ -31,4 +31,81 @@
 	font-size: 24px;
 	line-height: 50px;
 	text-align: justify;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+
+	.portada h1 {
+
+		font-size: 80px;
+	}
+
+	.parrafo{
+
+		padding: 10%;
+	}
+
+	.parrafo h2{
+
+		font-size: 28px;
+	}
+
+	.parrafo p{
+		
+		font-size: 20px;
+	}
+
+}
+
+@media (min-width: 425px) and (max-width: 800px) {
+	
+	.portada{
+
+		height: 40vh;
+	}
+
+	.portada h1 {
+
+		font-size: 80px;
+	}
+
+	.parrafo{
+
+		padding: 10%;
+	}
+		
+	.parrafo p{
+		
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+
+	.portada{
+
+		height: 40vh;
+	}
+
+	.portada h1 {
+
+		font-size: 45px;
+	}
+
+	.parrafo{
+
+		padding: 10%;
+	}
+
+	.parrafo p{
+		
+		font-size: 18px;
+		line-height: 40px;
+	}
+
 }

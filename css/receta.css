@@ -38,38 +38,7 @@
 	font-size: 30px;
 }
 
-
 @media (min-width: 1025px) and (max-width: 1440px){
-
-	.tarjetas{
-
-		grid-template-columns: repeat(3, 300px);
-		grid-gap: 60px;
-		margin: 100px 0;
-	}
-
-	.tarjetas .tarjeta{
-
-		width: 300px;
-		height: auto;
-	}
-
-	.tarjetas .tarjeta .encabezado{
-
-		width: 300px;
-		height: 250px;
-		overflow: hidden;
-	}
-
-	.tarjetas .tarjeta .encabezado img{
-
-		object-fit: cover;
-	}
-
-	.tarjeta .cuerpo .titulo{
-
-		font-size: 20px;
-	}
 
 }
 
@@ -95,29 +64,6 @@
 		font-size: 20px;
 	}
 
-	.tarjetas{
-
-		grid-template-columns: repeat(2, 300px);
-		margin: 0;
-		padding: 0;
-	}
-
-	.tarjetas .tarjeta{
-
-		width: 300px;
-		height: auto;
-	}
-
-	.tarjetas .tarjeta .encabezado{
-
-		width: 300px;
-	}
-
-	.tarjeta .cuerpo .titulo{
-
-		margin: 20px 0;
-	}
-
 }
 
 @media (min-width: 425px) and (max-width: 800px) {
@@ -135,11 +81,6 @@
 	.parrafo{
 
 		padding: 10%;
-	}
-
-	.parrafo h2{
-
-		font-size: 28px;
 	}
 
 	.parrafo p{
@@ -169,7 +110,7 @@
 	.parrafo p{
 		
 		font-size: 18px;
-		line-height: 24px;
-
+		line-height: 40px;
 	}
+
 }
