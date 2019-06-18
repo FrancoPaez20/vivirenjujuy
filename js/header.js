@@ -41,3 +41,24 @@ class SideNav {
 }
 
 new SideNav();
+
+//temperatura
+
+const lat = -24.1945700;
+const long = -65.2971200;
+
+const proxy = 'https://cors-anywhere.herokuapp.com/'
+const url = `${proxy}https://api.darksky.net/forecast/689cd272256d25690438e78037707e92/${lat},${long}`;
+
+fetch(url)
+	.then(response => {
+		return response.json();
+	})
+	.then(data => {
+		let farenheit = data.currently.temperature;
+		let celcius = Math.round((farenheit - 32) * 5/9);
+
+		const tempLabel = document.getElementById('temperature');
+		tempLabel.innerHTML = celcius + "°C";
+	})
+//dolar
